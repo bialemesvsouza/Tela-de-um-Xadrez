@@ -1,0 +1,32 @@
+body{
+  background-color: darkmagenta;
+}
+
+#chess-board {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .cell {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #000;
+    background-color: white;
+    
+  }
+ 
+  .cellP{
+    width: 70px;
+    height: 70px;
+    border: 1px solid #000;
+    background-color: #000;
+
+  }
+
+  img{
+    height: 68px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }

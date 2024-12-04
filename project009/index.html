@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xadrez</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="chess-board">
+        <div class="cell"><img src="https://images.vexels.com/media/users/3/143223/isolated/preview/2ac9bfd45b5f61c5425789214ce4ea4e-figura-de-xadrez-de-torre.png" alt=""> </div>
+        <div class="cellP"><img src="https://images.vexels.com/media/users/3/143174/isolated/lists/34f1b2b61373f599d8f735e91ce37851-cavaleiro-xadrez-figura-negra.png" alt=""> </div>
+        <div class="cell"><img src="https://images.vexels.com/media/users/3/143271/isolated/preview/a787a26d69a5c257e7f05d7d416f9389-figura-de-xadrez-bispo.png" alt=""></div>
+        <div class="cellP"><img src="https://images.vexels.com/media/users/3/143216/isolated/preview/2ae1ced518237938f0aa487655a0362b-figura-da-rainha-xadrez-preta.png" alt=""></div>
+        <div class="cell"><img src="https://images.vexels.com/media/users/3/143268/isolated/preview/efccbb14ab51440300ce79d55dc23551-figura-do-rei-xadrez-preto.png" alt=""> </div>
+        <div class="cellP"><img src="https://images.vexels.com/media/users/3/143271/isolated/preview/a787a26d69a5c257e7f05d7d416f9389-figura-de-xadrez-bispo.png" alt=""></div>
+        <div class="cell"><img src="https://images.vexels.com/media/users/3/143174/isolated/lists/34f1b2b61373f599d8f735e91ce37851-cavaleiro-xadrez-figura-negra.png" alt=""> </div>
+        <div class="cellP"><img src="https://images.vexels.com/media/users/3/143223/isolated/preview/2ac9bfd45b5f61c5425789214ce4ea4e-figura-de-xadrez-de-torre.png" alt=""> </div>
+      </div>
+
+      <div id="chess-board">
+        <div class="cellP"><img src="https://images.vexels.com/media/users/3/143289/isolated/preview/759a1d9598eae60232ca7a56b19f5a7d-figura-de-xadrez-de-peao.png" alt=""> </div>
+        <div class="cell"><img src="https://images.vexels.com/media/users/3/143289/isolated/preview/759a1d9598eae60232ca7a56b19f5a7d-figura-de-xadrez-de-peao.png" alt=""> </div>
+        <div class="cellP"><img src="https://images.vexels.com/media/users/3/143289/isolated/preview/759a1d9598eae60232ca7a56b19f5a7d-figura-de-xadrez-de-peao.png" alt=""> </div>
+        <div class="cell"><img src="https://images.vexels.com/media/users/3/143289/isolated/preview/759a1d9598eae60232ca7a56b19f5a7d-figura-de-xadrez-de-peao.png" alt=""> </div>
+        <div class="cellP"><img src="https://images.vexels.com/media/users/3/143289/isolated/preview/759a1d9598eae60232ca7a56b19f5a7d-figura-de-xadrez-de-peao.png" alt=""></div>
+        <div class="cell"><img src="https://images.vexels.com/media/users/3/143289/isolated/preview/759a1d9598eae60232ca7a56b19f5a7d-figura-de-xadrez-de-peao.png" alt=""> </div>
+        <div class="cellP"><img src="https://images.vexels.com/media/users/3/143289/isolated/preview/759a1d9598eae60232ca7a56b19f5a7d-figura-de-xadrez-de-peao.png" alt=""> </div>
+        <div class="cell"><img src="https://images.vexels.com/media/users/3/143289/isolated/preview/759a1d9598eae60232ca7a56b19f5a7d-figura-de-xadrez-de-peao.png" alt=""> </div>
+      </div>
+
+      <div id="chess-board">
+        <div class="cell"> </div>
+        <div class="cellP"> </div>
+        <div class="cell"> </div>
+        <div class="cellP"> </div>
+        <div class="cell"> </div>
+        <div class="cellP"> </div>
+        <div class="cell"> </div>
+        <div class="cellP"> </div>
+      </div>
+
+      <div id="chess-board">
+        <div class="cellP"> </div>
+        <div class="cell"> </div>
+        <div class="cellP"> </div>
+        <div class="cell"> </div>
+        <div class="cellP"> </div>
+        <div class="cell"> </div>
+        <div class="cellP"> </div>
+        <div class="cell"> </div>
+      </div>
+
+      <div id="chess-board">
+        <div class="cell"> </div>
+        <div class="cellP"> </div>
+        <div class="cell"> </div>
+        <div class="cellP" onclick=andar() id="aqui"> </div>
+        <div class="cell"> </div>
+        <div class="cellP"> </div>
+        <div class="cell"> </div>
+        <div class="cellP"> </div>
+      </div>
+
+      <div id="chess-board">
+        <div class="cellP"> </div>
+        <div class="cell"> </div>
+        <div class="cellP"> </div>
+        <div class="cell"> </div>
+        <div class="cellP"> </div>
+        <div class="cell"> </div>
+        <div class="cellP"> </div>
+        <div class="cell"> </div>
+      </div>
+
+      <div id="chess-board">
+        <div class="cell"><img src="https://images.vexels.com/media/users/3/143290/isolated/preview/3dc0e132939ad9ebff880b64637ea820-figura-de-xadrez-de-peao-branca.png" alt=""> </div>
+        <div class="cellP"><img src="https://images.vexels.com/media/users/3/143290/isolated/preview/3dc0e132939ad9ebff880b64637ea820-figura-de-xadrez-de-peao-branca.png" alt=""> </div>
+        <div class="cell"><img src="https://images.vexels.com/media/users/3/143290/isolated/preview/3dc0e132939ad9ebff880b64637ea820-figura-de-xadrez-de-peao-branca.png" alt=""> </div>
+        <div class="cellP"  id="peao" onclick=andar()><img id="Imagem" src="https://images.vexels.com/media/users/3/143290/isolated/preview/3dc0e132939ad9ebff880b64637ea820-figura-de-xadrez-de-peao-branca.png" alt="" > </div>
+        <div class="cell"><img src="https://images.vexels.com/media/users/3/143290/isolated/preview/3dc0e132939ad9ebff880b64637ea820-figura-de-xadrez-de-peao-branca.png" alt=""> </div>
+        <div class="cellP"><img src="https://images.vexels.com/media/users/3/143290/isolated/preview/3dc0e132939ad9ebff880b64637ea820-figura-de-xadrez-de-peao-branca.png" alt=""> </div>
+        <div class="cell"><img src="https://images.vexels.com/media/users/3/143290/isolated/preview/3dc0e132939ad9ebff880b64637ea820-figura-de-xadrez-de-peao-branca.png" alt=""> </div>
+        <div class="cellP"><img src="https://images.vexels.com/media/users/3/143290/isolated/preview/3dc0e132939ad9ebff880b64637ea820-figura-de-xadrez-de-peao-branca.png" alt=""> </div>
+      </div>
+
+      <div id="chess-board">
+        <div class="cellP"><img src="https://images.vexels.com/media/users/3/143224/isolated/lists/be2b821fd2c442cd1a7e26bc086ba091-figura-de-xadrez-de-torre-branca.png" alt=""> </div>
+        <div class="cell"> <img src=" https://images.vexels.com/media/users/3/143173/isolated/preview/b34a47b2a0e9d773aa199f7ae0f0a7ca-figura-de-xadrez-cavaleiro.png" alt=""></div>
+        <div class="cellP"><img src="https://images.vexels.com/media/users/3/143272/isolated/preview/270aa40d920d040a999bc44d27a2e114-figura-de-xadrez-do-bispo-branca.png" alt=""></div>
+        <div class="cell"> <img src="https://images.vexels.com/media/users/3/143217/isolated/preview/b37faca0051e61f5f393c949c1f4907e-figura-da-rainha-xadrez-branca.png" alt=""></div>
+        <div class="cellP"><img src="https://images.vexels.com/media/users/3/143267/isolated/lists/80c9ad2648bc76689e7167cfd68306e4-figura-de-xadrez-rei.png" alt=""></div>
+        <div class="cell"><img src="https://images.vexels.com/media/users/3/143272/isolated/preview/270aa40d920d040a999bc44d27a2e114-figura-de-xadrez-do-bispo-branca.png" alt=""></div>
+        <div class="cellP"><img src="https://images.vexels.com/media/users/3/143173/isolated/preview/b34a47b2a0e9d773aa199f7ae0f0a7ca-figura-de-xadrez-cavaleiro.png" alt=""> </div>
+        <div class="cell"><img src="https://images.vexels.com/media/users/3/143224/isolated/lists/be2b821fd2c442cd1a7e26bc086ba091-figura-de-xadrez-de-torre-branca.png" alt=""> </div>
+      </div>
+
+    <script>
+      function andar(){ 
+        const peao = document.getElementById('Imagem');
+        peao.style.transform = 'translateY(-143px)'
+        peao.style.transition = '1s';
+
+
+
+          //var imagem = document.getElementById('Imagem')
+          //document.getElementById('peao').innerHTML = " "
+          //document.getElementById('aqui').innerHTML = imagem.outerHTML
+        }
+
+    </script>
+
+      
+    
+</body>
+</html>
